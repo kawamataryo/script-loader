@@ -1,0 +1,28 @@
+{
+  "name": "demo",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint 'src/**/*.{js,ts,vue}' --fix",
+    "publish": "zip app.zip dist/*"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.6.2",
+    "vue": "^3.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.122",
+    "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "@typescript-eslint/parser": "^3.8.0",
+    "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "autoprefixer": "^9.8.6",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^7.0.0-beta.1",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7",
+    "vite": "^1.0.0-rc.1"
+  }
+}
